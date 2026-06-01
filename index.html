@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="../week12/js/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>weeek12</title>
+</head>
+<body>
+  <div id="options" class="d-flex  align-items-start" >
+    <div id="colorBox" class="p-2">
+      <h4 class="fw-bold">CHOOSE COLOR</h4>
+      <div class="color-item"></div>
+      <div class="color-item"></div>
+      <div class="color-item"></div>
+      <div class="color-item"></div>
+      <div class="color-item"></div>
+
+    </div>
+    <i class="fas fa-cog"></i>
+  </div>
+
+
+  <section id="loading" class="d-flex justify-content-center align-items-center">
+    <i class="spinner fas fa-spinner fa-spin fa-3x text-white"></i>
+</div>
+  </section>
+
+<button id="btnDown" class=" btn bg-danger text-white p-2 rounded-circle ">
+  <i class="fas fa-arrow-circle-down"></i>
+  </button>
+  <button id="btnUp" class=" btn bg-danger text-white p-2 rounded-circle ">
+  <i class="fas fa-arrow-circle-up"></i>
+  </button>
+   <nav id="OSAKA" class="navbar navbar-expand-lg text-light  ">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light " href="#">OSAKA</a>
+    <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item ">
+          <a class="nav-link active text-light" aria-current="page" href="#Home">Home</a>
+        </li>
+             <li class="nav-item">
+          <a class="nav-link text-light" id="about" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-light" id="about" href="#services">Services</a>
+        </li>
+    
+        <li class="nav-item dropdown text-light">
+          <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Gallery</a></li>
+            <li><a class="dropdown-item " href="#">Blog</a></li>
+            <li><hr class="dropdown-divider " href="#">  Flash</li>
+            <li><a class="dropdown-item " href="#Details">Profile</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled text-light" aria-disabled="true">Details</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2 text-light" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success text-light" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<header class="vh-100 d-flex align-items-center p-3">
+<div class="header-content text-white ">
+  <h1 class="fw-bold text-red">We are proffessional</h1>
+  <p>Developer,Graphical & Web Design</p>
+ <div class="social-header d-flex ">
+  <div class="icon d-flex justify-content-center align-items-center rounded-circle">
+    <i class="fa-brands fa-facebook-f "></i>
+  </div>
+  <div class="icon d-flex justify-content-center align-items-center rounded-circle">
+    <i class="fa-brands fa-twitter "></i>
+  </div>
+  <div class="icon d-flex justify-content-center align-items-center rounded-circle">
+    <i class="fa-brands fa-instagram"></i>
+  </div>
+  <div class="icon d-flex justify-content-center align-items-center rounded-circle">
+    <i class="fa-brands fa-youtube"></i>
+  </div>
+ </div>
+
+ 
+  <a href="#" class="text-red text-light"> VIEW Protofolio</a>
+</div>
+
+
+
+
+</header>
+<section id="About" class="vh-100 py-5">
+<div class=" title d-flex justify-content-center align-items-center">
+  <h2>ABOUT</h2>
+  <h3 class="position-absolute">ABOUT</h3>
+</div>
+<p class="text-center">Lorem ipsum dolor sit amet.</p>
+</div>
+<div class="container">
+
+  <div class="row ">
+  <div class="col-md-4">
+    <img src="images/bg.jpg"  class="w-100" alt="rap-singer">
+  </div>
+   <div class="col-md-7  align-self-center offset-md-1 ">
+  <h3 class="fw-bolder text-red">Robin steel  </h3>
+  <p>Creating a UI/UX Designer , Developer.</p>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi debitis alias temporibus sunt corrupti. Officiis quia alias eos tempore maxime praesentium facilis quod, rem id numquam sint dolorem modi nobis?</p>
+ </div>
+ 
+ 
+
+  </div>
+</div>
+
+
+
+</section>
+<section id="services" class=" services  p-5 bg-dark">
+ <div class=" title d-flex justify-content-center align-items-center">
+  <h2 class="">Section</h2>
+  <h3 class="position-absolute">Section</h3>
+</div>
+<p class="text-center fw-bold text-light ">Lorem ipsum dolor sit amet.</p>
+</div>
+<div class="container">
+  <div class="row gy-3">
+    <div class="col-md-4">
+
+  <div class="item position-relative   p-5 text-white bg-light">
+
+  <div class="icon position-absolute top-0 start-50 translate-middle   d-flex justify-content-center align-items-center rounded-circle bg-dark">
+    <i class="fa-brands fa-facebook-f bg-dark "></i>
+  </div>
+  
+    <h3 class="text-muted text-center">BRANDING</h3>
+    <div class="brdr  "></div>
+    <P class="text-muted text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ratione esse vitae eum itaque officiis.</P>
+  </div>
+  
+
+ </div>
+     <div class="col-md-4">
+
+  <div class="item position-relative   p-5 text-white bg-light">
+
+  <div class="icon position-absolute top-0 start-50 translate-middle   d-flex justify-content-center align-items-center rounded-circle bg-dark">
+    <i class="fa-brands fa-facebook-f bg-dark "></i>
+  </div>
+  
+    <h3 class="text-muted text-center">BRANDING</h3>
+    <div class="brdr  "></div>
+    <P class="text-muted text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ratione esse vitae eum itaque officiis.</P>
+ 
+  </div>
+  
+ </div>
+    <div class="col-md-4">
+
+  <div class="item position-relative   p-5 text-white bg-light">
+
+  <div class="icon position-absolute top-0 start-50 translate-middle   d-flex justify-content-center align-items-center rounded-circle bg-dark">
+    <i class="fa-brands fa-facebook-f bg-dark "></i>
+  </div>
+  
+    <h3 class="text-muted text-center">BRANDING</h3>
+    <div class="brdr  "></div>
+    <P class="text-muted text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ratione esse vitae eum itaque officiis.</P>
+  </div>
+  </div>
+      <div class="col-md-4">
+
+  <div class="item position-relative   p-5 text-white bg-light">
+
+  <div class="icon position-absolute top-0 start-50 translate-middle   d-flex justify-content-center align-items-center rounded-circle bg-dark">
+    <i class="fa-brands fa-facebook-f bg-dark "></i>
+  </div>
+  
+    <h3 class="text-muted text-center">BRANDING</h3>
+    <div class="brdr  "></div>
+    <P class="text-muted text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ratione esse vitae eum itaque officiis.</P>
+ 
+  </div>
+  </div>
+      <div class="col-md-4">
+
+  <div class="item position-relative   p-5 text-white bg-light">
+
+  <div class="icon position-absolute top-0 start-50 translate-middle   d-flex justify-content-center align-items-center rounded-circle bg-dark">
+    <i class="fa-brands fa-facebook-f bg-dark "></i>
+  </div>
+  
+    <h3 class="text-muted text-center">BRANDING</h3>
+    <div class="brdr  "></div>
+    <P class="text-muted text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ratione esse vitae eum itaque officiis.</P>
+ 
+  </div>
+  </div>
+      <div class="col-md-4">
+
+  <div class="item position-relative   p-5 text-white bg-light">
+
+  <div class="icon position-absolute top-0 start-50 translate-middle   d-flex justify-content-center align-items-center rounded-circle bg-dark">
+    <i class="fa-brands fa-facebook-f bg-dark "></i>
+  </div>
+  
+    <h3 class="text-muted text-center">BRANDING</h3>
+    <div class="brdr  "></div>
+    <P class="text-muted text-center">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ratione esse vitae eum itaque officiis.</P>
+ 
+  </div>
+</section>
+<!--Carusel in bootstrap-->
+<section id="testimonial" class="testimonial vh-100 bg-light">
+<div class=" title d-flex justify-content-center align-items-center">
+  <h2>testimonial</h2>
+  <h3 class="position-absolute">testimonial</h3>
+</div>
+  <p class=" text-center lead">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+
+<!--Carusel-->
+<div id="carouselExampleIndicators" class=" carousel-fade carousel slide" >
+
+  <div class="carousel-inner w-75  pt-5 mx-auto">
+
+    <div class="carousel-item  active  ">
+      <div class="item d-flex">
+      <img src="../Beshoy.jpg" class=" client-item rounded-circle " alt="beshoymofied">
+      </div>
+      <div class="client-feedback text-center pt-5 ">
+      <h6 class="fw-bold">Beshoy mofied</h6>
+      <span class="text-muted">web designer </span>
+      <div class="brdr"></div>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deleniti non alias veritatis saepe voluptas.</p>
+      </div>
+    </div>
+
+
+    
+    <div class="carousel-item">
+   
+       <div class="item d-flex">
+      <img src="../Beshoy1.jpg" class=" client-item rounded-circle " alt="beshoymofied">
+      </div>
+      <div class="client-feedback text-center pt-5 ">
+      <h6 class="fw-bold">Beshoy mofied</h6>
+      <span class="text-muted">web designer </span>
+      <div class="brdr"></div>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deleniti non alias veritatis saepe voluptas.</p>
+      </div>
+    </div>
+
+
+
+    <div class="carousel-item">
+ <div class="item d-flex ">
+      <img src="../Beshoy2.jpg" class=" client-item rounded-circle " alt="beshoymofied">
+      </div>
+      <div class="client-feedback text-center pt-5 ">
+      <h6 class="fw-bold">Beshoy mofied</h6>
+      <span class="text-muted">web designer</span>
+      <div class="brdr"></div>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum deleniti non alias veritatis saepe voluptas.</p>
+      </div>
+    </div>
+
+
+    </div>
+  </div>
+    <div class="carousel-indicators position-static">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">
+     
+      <img src="../Beshoy.jpg" class="w-100 rounded-circle" alt="beshoymofied">
+
+    </button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2">
+
+      <img src="../Beshoy1.jpg" class="w-100 rounded-circle" alt="beshoymofied">
+
+    </button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3">
+     
+      <img src="../Beshoy2.jpg" class="w-100 rounded-circle" alt="beshoymofied">
+
+      
+    </button>
+  </div>
+
+
+</section>
+<section id="products" class="pt-5 text-center vh-100">
+  <h2 class="fw-bold">Most Popular costed</h2>
+  <p class="text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+
+  <div class="container">
+
+<ul class="nav nav-pills mb-3 d-flex justify-content-center bg-primary bg-opacity-10" id="pills-tab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <button class="nav-link active" id="pills-Development-tab" data-bs-toggle="pill" data-bs-target="#pills-Development" type="button" role="tab" aria-controls="pills-Development" aria-selected="true">Development</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-Design-tab" data-bs-toggle="pill" data-bs-target="#pills-Design" type="button" role="tab" aria-controls="pills-Design" aria-selected="false">Design</button>
+  </li>
+  <li class="nav-item" role="presentation">
+    <button class="nav-link" id="pills-Business-tab" data-bs-toggle="pill" data-bs-target="#pills-Business" type="button" role="tab" aria-controls="pills-Business" aria-selected="false">Business</button>
+  </li>
+ 
+</ul>
+<div class="tab-content" id="pills-tabContent">
+  
+  <div class="tab-pane fade show active" id="pills-Development" role="tabpanel" aria-labelledby="pills-Development-tab" tabindex="0">
+  
+    <div class="row gy-4">
+
+  <!-- كارت 1 -->
+  <div class="col-lg-3 col-md-6">
+    <div class="card" >
+      <img src="../course3.jpeg" class="card-img-top" alt="course">
+      <div class="card-body">
+        <div class="Badge1 text-start d-flex justify-content-between">
+          <span class="badge rounded-pill bg-success bg-opacity-75 text-light">beganning</span>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <h5 class="card-title fw-bold">From Zero To Hero</h5>
+        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <button class="btn btn-outline-danger w-100">Start now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- كارت 2 -->
+  <div class="col-lg-3 col-md-6">
+    <div class="card" >
+      <img src="../course2jpeg.jpeg" class="card-img-top" alt="course">
+      <div class="card-body">
+        <div class="Badge1 text-start d-flex justify-content-between">
+          <span class="badge rounded-pill bg-success bg-opacity-75 text-light">beganning</span>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <h5 class="card-title fw-bold">From Zero To Hero</h5>
+        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <button class="btn btn-outline-danger w-100">Start now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- كارت 3 -->
+  <div class="col-lg-3 col-md-6">
+    <div class="card" >
+      <img src="../course3.jpeg" class="card-img-top" alt="course">
+      <div class="card-body">
+        <div class="Badge1 text-start d-flex justify-content-between">
+          <span class="badge rounded-pill bg-success bg-opacity-75 text-light">beganning</span>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <h5 class="card-title fw-bold">From Zero To Hero</h5>
+        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <button class="btn btn-outline-danger w-100">Start now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- كارت 4 -->
+  <div class="col-lg-3 col-md-6">
+    <div class="card" >
+      <img src="../course2jpeg.jpeg" class="card-img-top" alt="course">
+      <div class="card-body">
+        <div class="Badge1 text-start d-flex justify-content-between">
+          <span class="badge rounded-pill bg-success bg-opacity-75 text-light">beganning</span>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <h5 class="card-title fw-bold">From Zero To Hero</h5>
+        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <button class="btn btn-outline-danger w-100">Start now</button>
+      </div>
+    </div>
+  </div>
+
+   <!-- كارت 5 -->
+  <div class="col-lg-3 col-md-6">
+    <div class="card" >
+      <img src="../course3.jpeg" class="card-img-top" alt="course">
+      <div class="card-body">
+        <div class="Badge1 text-start d-flex justify-content-between">
+          <span class="badge rounded-pill bg-success bg-opacity-75 text-light">beganning</span>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <h5 class="card-title fw-bold">From Zero To Hero</h5>
+        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <button class="btn btn-outline-danger w-100">Start now</button>
+      </div>
+    </div>
+  </div>
+
+</div> <!-- ✅ قفلنا الـ row هنا -->
+
+</div>
+
+
+
+  <div class="tab-pane fade " id="pills-Design" role="tabpanel" aria-labelledby="pills-Design-tab" tabindex="0">
+
+
+  
+    
+      <div class="row gy-4">
+
+  <!-- كارت 1 -->
+  <div class="col-lg-3 col-md-6">
+    <div class="card" >
+      <img src="../course3.jpeg" class="card-img-top" alt="course">
+      <div class="card-body">
+        <div class="Badge1 text-start d-flex justify-content-between">
+          <span class="badge rounded-pill bg-success bg-opacity-75 text-light">beganning</span>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <h5 class="card-title fw-bold">From Zero To Hero</h5>
+        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <button class="btn btn-outline-danger w-100">Start now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- كارت 2 -->
+  <div class="col-lg-3 col-md-6">
+    <div class="card" >
+      <img src="../course2jpeg.jpeg" class="card-img-top" alt="course">
+      <div class="card-body">
+        <div class="Badge1 text-start d-flex justify-content-between">
+          <span class="badge rounded-pill bg-success bg-opacity-75 text-light">beganning</span>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <h5 class="card-title fw-bold">From Zero To Hero</h5>
+        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <button class="btn btn-outline-danger w-100">Start now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- كارت 3 -->
+  <div class="col-lg-3 col-md-6">
+    <div class="card" >
+      <img src="../course3.jpeg" class="card-img-top" alt="course">
+      <div class="card-body">
+        <div class="Badge1 text-start d-flex justify-content-between">
+          <span class="badge rounded-pill bg-success bg-opacity-75 text-light">beganning</span>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <h5 class="card-title fw-bold">From Zero To Hero</h5>
+        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <button class="btn btn-outline-danger w-100">Start now</button>
+      </div>
+    </div>
+  </div>  
+  </div>
+  </div>
+
+  <div class="tab-pane fade" id="pills-Business" role="tabpanel" aria-labelledby="pills-Business-tab" tabindex="0">
+
+    <div class="row">
+<!-- كارت 1 -->
+  <div class="col-lg-3 col-md-6">
+    <div class="card" >
+      <img src="../course3.jpeg" class="card-img-top" alt="course">
+      <div class="card-body">
+        <div class="Badge1 text-start d-flex justify-content-between">
+          <span class="badge rounded-pill bg-success bg-opacity-75 text-light">beganning</span>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <h5 class="card-title fw-bold">From Zero To Hero</h5>
+        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <button class="btn btn-outline-danger w-100">Start now</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- كارت 2 -->
+  <div class="col-lg-3 col-md-6">
+    <div class="card" >
+      <img src="../course2jpeg.jpeg" class="card-img-top" alt="course">
+      <div class="card-body">
+        <div class="Badge1 text-start d-flex justify-content-between">
+          <span class="badge rounded-pill bg-success bg-opacity-75 text-light">beganning</span>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <h5 class="card-title fw-bold">From Zero To Hero</h5>
+        <p class="card-text text-muted">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+        <button class="btn btn-outline-danger w-100">Start now</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+</section>
+
+
+    <script src="../week10/js/jquery-3.7.1.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
